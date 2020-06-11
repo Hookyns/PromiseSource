@@ -1,4 +1,4 @@
-﻿# PromiseSource
+﻿# Promise Completion Source
 Promise manageable from outer scope, similar to C#'s TaskCompletionSource
 
 ## Synopsis
@@ -16,7 +16,7 @@ class PromiseSource<TResult> {
 
 ## Example
 ```typescript
-import PromiseSource from "promise-source";
+import PromiseSource from "promise-cs";
 
 function doSomething(): Promise<number>
 {

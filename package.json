@@ -1,5 +1,5 @@
 {
-  "name": "promise-source",
+  "name": "promise-cs",
   "version": "1.0.0",
   "description": "Promise manageable from outer scope, similar to C#'s TaskCompletionSource",
   "author": {
@@ -24,7 +24,6 @@
     "url": "http://github.com/Hookyns/PromiseSource.git"
   },
   "scripts": {
-    "build": "tsc",
     "test": "node test.js"
   },
   "files": [
