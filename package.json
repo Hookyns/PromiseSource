@@ -24,6 +24,7 @@
     "url": "https://github.com/Hookyns/PromiseSource.git"
   },
   "scripts": {
+    "prepare": "tsc",
     "test": "node test.js"
   },
   "files": [
