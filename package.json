@@ -1,0 +1,35 @@
+{
+  "name": "promise-source",
+  "version": "1.0.0",
+  "description": "Promise manageable from outer scope, similar to C#'s TaskCompletionSource",
+  "author": {
+    "name": "Roman Jámbor",
+    "email": "hookcze@gmail.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "promise",
+    "source",
+    "task",
+    "completion",
+    "deferred"
+  ],
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Hookyns/PromiseSource.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "test.js"
+  ]
+}
