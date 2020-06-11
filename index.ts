@@ -1,7 +1,7 @@
 ﻿/**
  * Promise manageable from outer scope
  */
-export default class PromiseSource<TResult>
+export default class PromiseSource<TResult = void>
 {
 	/**
 	 * Promise
